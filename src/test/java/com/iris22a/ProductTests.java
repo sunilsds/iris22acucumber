@@ -39,7 +39,8 @@ public class ProductTests extends TestBase {
 		}
 		
 		log.info("polo men search complete");
-
+		
+		
 	}
 
 	@Test
@@ -53,6 +54,7 @@ public class ProductTests extends TestBase {
 		UIKeyword.click(By.xpath(repo.getLocator("your_account")));
 		
 		log.info("click on account");
+		log.info("click on accounted");
 
 	}
 
